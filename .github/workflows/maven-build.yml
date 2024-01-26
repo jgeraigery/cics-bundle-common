@@ -8,7 +8,7 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Java
         uses: bjhargrave/setup-java@a1600c1f88a7741e2420b0a657f2838cec4f09c5
